@@ -1,0 +1,37 @@
+Created and deployed fronted
+Created and deployed  backend
+created and deployed backend with pv and pvc
+
+Now !
+***/Make EKS cluster and deploy it// 
+*/deploy in serverless like Fargate
+
+*****/Make Infra using terraform
+
+****/store the pv in ebc
+
+****/This should be done using various methods like Attaching IAM role to the pod using OIDC connector and Check what all other methods
+*****/Get to know Service Accounts, storage Classes, etc in CKA
+
+
+
+Create Load balancing using (nginx ingress controller) /not ingress nginx
+Create SSl/TLS certificate
+Config DNS
+Create HELM 
+Create CI/CD deploy using gitops 
+Monitor the SVc and Cluster
+
+
+Learning
+1. Swap Memory, Cgroups, (In k8s, linux, etc) , Cache memory/Caching in memory cache, in memory data (Redis)
+2. School of SRE 
+3. Networking and System Design Books
+4. MLOps (learn devops first)
+5. Learn Continously and apply practical (check git and linkdin posts of Vishakha Sadwani)
+6. Practice tools and INstall them automated using terraform (ArgoCD, Prometheus, Grafana )
+7. Service Mesh using Istio
+8. K8s Network Security using Kyverno
+9. CDN, API Gateway
+10. Cluster Upgrade
+11. play with k8s 

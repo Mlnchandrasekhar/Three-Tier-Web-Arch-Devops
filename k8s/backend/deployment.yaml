@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+  namespace: tt
+  labels:
+    app: backend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+      - name: backend
+        image: 663383947661.dkr.ecr.ap-south-1.amazonaws.com/backend:amd
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 3500 
+        env:
+        - name: MONGO_CONN_STR
+          value: mongodb://database-service:27017/tt-appdb
