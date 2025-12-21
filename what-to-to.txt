@@ -35,3 +35,79 @@ Learning
 9. CDN, API Gateway
 10. Cluster Upgrade
 11. play with k8s 
+
+**Linux Hero to Zero Complete the Labs and Be Proficient**
+
+🟢 FOUNDATION: Linux Basics (Start Here)
+
+Linux Core Concepts 1
+What Linux is, kernel, distributions, filesystem basics
+
+Linux Core Concepts 2
+Processes, boot, services, logs, system structure
+
+Linux Basic Commands 1
+ls, cd, pwd, cp, mv, rm, cat, less
+
+Linux Basic Commands 2
+grep, find, awk, sed, pipes, redirection
+
+Linux Bash Prompt
+PS1, environment variables, shell behavior
+
+Linux vi Editor
+Editing config files (must-have skill)
+
+🟢 USER & SECURITY BASICS
+
+Linux Account Management
+Users, groups, login shells
+
+Linux Permissions & Ownership
+chmod, chown, umask, security basics
+
+Linux SSH & SCP
+Remote access, key-based auth, secure copy
+
+🟡 PACKAGE MANAGEMENT & AUTOMATION
+
+Linux RPM & YUM
+RHEL-based package handling
+
+Linux Package Management
+Cross-distro package concepts (apt vs yum)
+
+Linux Cron Jobs
+Task scheduling & automation
+
+🟡 NETWORKING & CONNECTIVITY
+
+Linux Networking
+IP, routes, netstat, ss, ping, traceroute
+
+Linux DNS
+DNS config, resolvers, troubleshooting
+
+Linux IPTables.  Learn IP tables
+Firewall rules, packet filtering
+
+🟡 SYSTEM MANAGEMENT
+
+Linux systemd Services
+Service lifecycle, unit files
+
+🔵 STORAGE (ADVANCED SYSTEM SKILLS)
+
+Linux Storage 1
+Disks, partitions, mount, fstab
+
+Linux Storage Filesystems
+ext4, xfs, formatting, fsck
+
+Linux Storage 2
+LVM, advanced storage concepts
+
+🔵 TROUBLESHOOTING (FINAL SKILL)
+
+Linux Troubleshooting
+Logs, CPU/memory issues, disk problems
